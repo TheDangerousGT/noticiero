@@ -1,10 +1,3 @@
-/**************************************
-    File Name: custom.js
-    Template Name: Cloapedia
-    Created By: HTML.Design
-    http://themeforest.net/user/wpdestek
-**************************************/
-
 (function($) {
     "use strict";
     $(document).ready(function() {
@@ -27,8 +20,8 @@
     })
 
     $(window).load(function() {
-        $("#preloader").on(500).fadeOut();
-        $(".preloader").on(600).fadeOut("slow");
+        $("#preloader").on(8000).fadeOut();
+        $(".preloader").on(600).fadeOut("very slow");
     });
 
     jQuery(window).scroll(function(){
